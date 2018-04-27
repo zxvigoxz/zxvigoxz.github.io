@@ -1,4 +1,4 @@
-Indice
+<h1>Indice</h1>
 
 <a href="zxvigoxz.github.io/WEB/Practica 1 Bootstrap.html"> Practica 1 Bootstrap </a>
 
