@@ -1,6 +1,6 @@
 <h1>Indice</h1>
 
-<a href="https://zxvigoxz.github.io/WEB/Practica1Bootstrap.html"> Practica 1 Bootstrap </a>
+<a href="https://zxvigoxz.github.io/WEB/Practica%201%20Bootstrap.html"> Practica 1 Bootstrap </a>
 
 <a href="https://zxvigoxz.github.io/WEB/Practica%202%20Bootstrap.html"> Practica 2 Bootstrap </a>
 
