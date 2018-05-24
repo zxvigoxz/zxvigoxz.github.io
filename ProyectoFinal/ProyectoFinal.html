@@ -1,166 +1,176 @@
- <html>
- <head>
-	<meta charset="utf-8">
-	<title>Proyecto Final</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<script src="jquery-3.3.1.js"></script>
+<html><head>
+  <meta charset="utf-8">
+  <title>Proyecto Final</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="jquery-3.3.1.js"></script>
 
  <style>
+
+      header{
+        padding:
+        20px 15px 25px 20px
+     }
+
+     .Banners:hover{
+        transform:scale(.96);cursor:pointer
+     }
+
+     .Personajes:hover{
+        transform:scale(.96);cursor:pointer
+     }
+           .main{
+      display:none
+    }
            .principalBlazing{
-			height: 110%;
-			background-color: grey;
-			margin: 0 auto;
-			border: 0;
-			padding: 2%;
-			color: white;
-		}
-	       .BlazingSasuke{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 0%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .BannerChojuro{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 0%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-	       .PvPSakuraIno{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 0%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .LimitINSS{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 0%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .BlazingNarutoTL{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 0%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .BannerIK{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 0%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
+      height: 110%;
+      background-color: grey;
+      margin: 0 auto;
+      border: 0;
+      padding: 2%;
+      color: white;
+    }
+         .Banners{
+      width: 30%;
+      background-color: #555A54;
+      margin-top: 2%;
+      padding: 0%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Banners{
+      width: 30%;
+      background-color: #555A54;
+      margin-top: 2%;
+      padding: 0%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+         .Banners{
+      width: 30%;
+      background-color: #555A54;
+      margin-top: 2%;
+      padding: 0%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Banners{
+      width: 30%;
+      background-color: #555A54;
+      margin-top: 2%;
+      padding: 0%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Banners{
+      width: 30%;
+      background-color: #555A54;
+      margin-top: 2%;
+      padding: 0%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Banners{
+      width: 30%;
+      background-color: #555A54;
+      margin-top: 2%;
+      padding: 0%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
 
 
 
-	       .principalPersonajes{
-			height: 110%;
-			background-color: grey;
-			margin: 0 auto;
-			border: 0;
-			padding: 2%;
-			color: white;
-		}
-           .PSasukeG{
-			height:  34%;
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 1%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .PChino{
-			height:  34%;
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 1%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .PInoC{
-			height:  34%;
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 1%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .PInoCA{
-			height:  34%;
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 1%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .PSakuraC{
-			height:  34%;
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			padding: 1%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
-		   .PSakuraCA{
-			width: 30%;
-			background-color: #555A54;
-			margin-top: 2%;
-			float: left;
-			margin-bottom: 2%;
-			color: black ;
-			margin-left: 2%;
-			text-align: left;
-		}
+         .principalPersonajes{
+      height: 110%;
+      background-color: grey;
+      margin: 0 auto;
+      border: 0;
+      padding: 2%;
+      color: white;
+    }
+           .Personajes{
+      width: 34%;
+      background-color: #555A54;
+      margin-top: 2%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Personajes{
+      width: 34%;
+      background-color: #555A54;
+      margin-top: 2%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Personajes{
+        width: 34%;
+      background-color: #555A54;
+      margin-top: 2%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Personajes{
+      width: 34%;
+      background-color: #555A54;
+      margin-top: 2%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Personajes{
+      width: 34%;
+      background-color: #555A54;
+      margin-top: 2%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+       .Personajes{
+      width: 34%;
+      background-color: #555A54;
+      margin-top: 2%;
+      float: left;
+      margin-bottom: 2%;
+      color: black ;
+      margin-left: 2%;
+      text-align: left;
+    }
+
+    body{
+      background-color:#272b33
+    }
+
   </style>
 
  </head>
@@ -189,53 +199,52 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-         <li><a href="">Guides</a></li>
+         </li><li><a href="">Guides</a></li>
         <li class="dropdown">
           <ul class="dropdown-menu">
-        </li>
+        
       </ul>
 
       <ul class="nav navbar-nav navbar-left">
         <li><a href="">Characters</a></li>
         <li class="dropdown">
           <ul class="dropdown-menu">
-        </li>
+        
       </ul>
 
       <ul class="nav navbar-nav navbar-left">
         <li><a href="#">Tier List</a></li>
         <li class="dropdown">
           <ul class="dropdown-menu">
-        </li>
+        
       </ul>
 
       <ul class="nav navbar-nav navbar-left">
         <li><a href="">PvP</a></li>
         <li class="dropdown">
           <ul class="dropdown-menu">
-        </li>
+        
       </ul>
-	    
- </nav>
+      
+ </li></ul></li></ul></li></ul></li></ul></div></div></nav>
    <script src="js/bootstrap.js"></script>
 
 
-<body>
 
-	
-	
+
+  
+  
 <div class="principalBlazing">
 
 <h4> LATEST GUIDES </h4>
 
-<div class="BlazingSasuke">
+<div class="Banners">
 
- 		<a href="https://zxvigoxz.github.io/ProyectoFinal/BannerSaske.html">
- 			
- 			<img class="img-rounded img-responsive"
- 		     src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/29386243_556588741360200_3175355487566692352_n.png">
- 		 
- 		 </a>
+    <a href="https://zxvigoxz.github.io/ProyectoFinal/BannerSaske.html">
+      
+      <img class="img-rounded img-responsive" src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/29386243_556588741360200_3175355487566692352_n.png">
+     
+     </a>
 
     <header>
 
@@ -246,12 +255,11 @@
     </header>
  </div>
 
-<div class="BannerChojuro">
+<div class="Banners">
 
         <a href="https://zxvigoxz.github.io/ProyectoFinal/BannerChojuro.html">
-	       <img class="img-rounded img-responsive"
-            	src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/29186320_553475638338177_4502877956900651008_n.png">
-	</a>
+         <img class="img-rounded img-responsive" src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/29186320_553475638338177_4502877956900651008_n.png">
+  </a>
 
     <header>
 
@@ -262,10 +270,9 @@
     </header>
  </div>
 
-<div class="PvPSakuraIno">
+<div class="Banners">
 
-         <img  class="img-rounded img-responsive" 
-         src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/28783254_550333588652382_8504089553410042609_n.png">
+         <img class="img-rounded img-responsive" src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/28783254_550333588652382_8504089553410042609_n.png">
 
     <header>
 
@@ -276,10 +283,9 @@
     </header>
 
  </div>
-<div class="LimitINSS">
+<div class="Banners">
 
- 		<img class="img-rounded img-responsive"
- 		     src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/28377700_547135138972227_8315652320554942353_n-1.png">
+    <img class="img-rounded img-responsive" src="https://ultimateninjablazingx.com/wp-content/uploads/2018/03/28377700_547135138972227_8315652320554942353_n-1.png">
 
     <header>
 
@@ -289,10 +295,9 @@
 
     </header>
  </div>
- <div class="BlazingNarutoTL">
+ <div class="Banners">
 
- 		<img class="img-rounded img-responsive"
- 		     src="https://ultimateninjablazingx.com/wp-content/uploads/2018/02/28056596_543855262633548_2454076384476471938_n.png">
+    <img class="img-rounded img-responsive" src="https://ultimateninjablazingx.com/wp-content/uploads/2018/02/28056596_543855262633548_2454076384476471938_n.png">
 
     <header>
 
@@ -302,10 +307,9 @@
 
     </header>
  </div>
- <div class="BannerIK">
+ <div class="Banners">
 
- 		<img class="img-rounded img-responsive"
- 		     src="https://ultimateninjablazingx.com/wp-content/uploads/2018/02/27858643_540640052955069_5070893293976625884_n.png">
+    <img class="img-rounded img-responsive" src="https://ultimateninjablazingx.com/wp-content/uploads/2018/02/27858643_540640052955069_5070893293976625884_n.png">
 
      <header>
 
@@ -323,40 +327,34 @@
 
 <h4> LATEST CHARACTERS </h4>
 
- <div class="PSakuraCA">
+ <div class="Personajes">
 
- 		<img class="img-responsive"
- 		     src="PSasukeG.png">
+    <img class="img-responsive" src="PSasukeG.png">
    
  </div>
-  <div class="PSakuraCA">
+  <div class="Personajes">
 
- 		<img class="img-responsive" 
- 		     src="PChino.png">
-
- </div>
-  <div class="PSakuraCA">
-
- 		<img class="img-responsive"
- 		     src="PInoC.png">
+    <img class="img-responsive" src="PChino.png">
 
  </div>
-  <div class="PSakuraCA">
+  <div class="Personajes">
 
- 		<img class="img-responsive"
- 		     src="PInoCA.png">
-
- </div>
-  <div class="PSakuraCA">
-
- 		<img class="img-responsive"
- 		     src="PSakuraC.png">
+    <img class="img-responsive" src="PInoC.png">
 
  </div>
-  <div class="PSakuraCA">
+  <div class="Personajes">
 
- 		<img class="img-responsive"
- 		     src="PSakuraCA.png">
+    <img class="img-responsive" src="PInoCA.png">
+
+ </div>
+  <div class="Personajes">
+
+    <img class="img-responsive" src="PSakuraC.png">
+
+ </div>
+  <div class="Personajes">
+
+    <img class="img-responsive" src="PSakuraCA.png">
 
  </div>
 </div>
@@ -364,8 +362,12 @@
 
 <hr>
 </div>
-</div>
-</nav>
-</div>
-</body>
-</html>
+
+
+
+
+
+</body></html>
+
+
+
